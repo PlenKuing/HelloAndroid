@@ -5,7 +5,8 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     tools:context="com.example.plenkuing.helloandroid.MainActivity"
-    android:gravity="center_horizontal">
+    android:gravity="center_horizontal"
+    android:orientation="vertical">
 
     <TextView
         android:layout_width="wrap_content"
@@ -13,5 +14,11 @@
         android:text="Hello Android!"
         android:layout_gravity="center_horizontal"
         android:textSize="22dp"/>
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="兄弟！快点我！"
+        android:textSize="16dp"
+        android:layout_gravity="center_horizontal"/>
 
 </LinearLayout>
